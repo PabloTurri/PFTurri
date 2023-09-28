@@ -17,24 +17,29 @@
 <body>
     <nav class="navbar menu navbar-expand-sm bg-dark navbar-dark">
         <div class="container-fluid d-flex justify-content-center">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" href="../index.html">INICIO</a>
-            </li>
-           <li class="nav-item">
-              <a class="nav-link" href="hoteles.html">HOTELES</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="restaurantes.html">RESTAURANTES</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contacto.html">CONTACTO</a>
-            </li>
-          </ul>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex justify-content-center" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hoteles.html">HOTELES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="restaurantes.html">RESTAURANTES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">CONTACTO</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
       
-    <div class="bodyA">
+    <div class="bodyA container-fluid">
         <p>La ciudad cuenta con una amplia lista de actividades/excursiones para realizar. Todas ellas muy divertidas y
             variadas, actividades individuales o para hacer en familia.</p><br>
         <p>Algunas de las actividades a realizar son:</p><br>
@@ -59,21 +64,23 @@
                 de relieves de prestancia singular que encierran una historia teñida de leyenda.</li>
         </ul>
         <p>Te recomendamos algunos videos interesantes donde se puede ver que hacer en Tandil.</p>
-        <div class="videos">
-            <div class="youtubeVideo">
+        <div class="container-fluid videos">
+          <div class="row">
+            <div class="col-sm-6 youtubeVideo">
                 <h2>Sierra y paseos</h2>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/XhU-g6AicVk"
+                <iframe width="100%" height="350px" src="https://www.youtube.com/embed/XhU-g6AicVk"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
             </div>
-            <div class="youtubeVideo">
+            <div class="col-sm-6 youtubeVideo">
                 <h2>8 paseos gratis</h2>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/PsBQjyovSHM"
+                <iframe width="100%" height="350px" src="https://www.youtube.com/embed/PsBQjyovSHM"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
             </div>
+          </div>
         </div>
     </div>
 

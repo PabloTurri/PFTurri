@@ -43,6 +43,10 @@ $fc: url(multimedia/celeste.jpg);
     }
 }
 
+.navbar-nav{
+    text-align: center !important;
+}
+
 .nav-link{
     color: white !important;
 }
@@ -141,7 +145,6 @@ main h2 {
 }
 
 .rest {
-    display: flex;
     border: 2px solid black;
     padding: 20px;
     margin-top: 10px;
@@ -156,16 +159,12 @@ main h2 {
     }
 
     img {
-    margin-left: 60%;
-    bottom: 0;
-    right: 0;
-    width: 400px;
-    height: 200px;
+        justify-content: end;
+        //bottom: 0;
+        //right: 0;
+        max-width: 100%;
+        max-height: 200px;
     }
-}
-
-.lista {
-    display: block;
 }
 
 /* actividades */
@@ -181,13 +180,7 @@ main h2 {
     }
 }
 
-.youtubeVideo h2 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
 .videos {
-    display: flex;
     justify-content: space-evenly;
 }
 
