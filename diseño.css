@@ -135,9 +135,8 @@ main h2 a {
   margin-left: 20px;
 }
 .rest img {
-  justify-content: end;
-  max-width: 100%;
-  max-height: 200px;
+  width: 400px;
+  height: 200px;
 }
 
 /* actividades */
