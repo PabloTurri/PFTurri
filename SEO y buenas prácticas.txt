@@ -1,0 +1,5 @@
+Agregue Keywords a cada archivo html de mi sitio web.
+Modifique los títulos de cada archivo.
+Tuve en cuenta la identación, lélibilidad del código.
+Tuve en cuenta el tamaño y cantidad de texto de mi sitio web.
+Agregue metaetiquetas "description" para cada página de mi sitio web.
