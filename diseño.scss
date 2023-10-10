@@ -60,6 +60,11 @@ $background-rgba: rgba(128, 128, 128, 0.418);
     background-size: cover;
     background-repeat: no-repeat;
 
+    h2{
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
     img {
         padding-top: 30px;
         padding-bottom: 30px;
@@ -144,6 +149,10 @@ main h2 {
     background-image: $background-body;
     text-align: left;
     font-family: $font-karla;
+
+    p{
+        margin-bottom: 40px;
+    }
 }
 
 .rest {
@@ -199,8 +208,9 @@ form {
     font-family: $font-roboto-slab;
 
     h2 {
-        font-size: 18px;
-        margin-bottom: 15px;
+        font-size: 20px;
+        margin-bottom: 25px;
+        font-weight: bold;
     }
 
     input {

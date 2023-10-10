@@ -44,6 +44,10 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+.description h2 {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
 .description img {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -121,6 +125,9 @@ main h2 a {
   text-align: left;
   font-family: "Karla", sans-serif;
 }
+.bodyR p {
+  margin-bottom: 40px;
+}
 
 .rest {
   border: 2px solid black;
@@ -169,8 +176,9 @@ form {
   font-family: "Roboto Slab", serif;
 }
 form h2 {
-  font-size: 18px;
-  margin-bottom: 15px;
+  font-size: 20px;
+  margin-bottom: 25px;
+  font-weight: bold;
 }
 form input {
   width: 100%;
